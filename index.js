@@ -18,6 +18,19 @@ function ternaryCheckCity(someCity){
   return cityMessage
 }
 
-function switchOnCharmFromTip(){
-  // Write your code here!
+function switchOnCharmFromTip(tip){
+  let tipMessage
+  
+  switch (tip) {
+    case 'generous':
+      tipMessage = 'Thank you so much.';
+      break;
+    case 'cheap':
+      tipMessage = 'Thank you.';
+      break;
+    case 'other':
+      tipMessage = 'Bye.';
+      break;
+  }
+  return tipMessage
 }
