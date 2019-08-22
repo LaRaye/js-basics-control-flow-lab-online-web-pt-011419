@@ -1,6 +1,10 @@
 function scuberGreetingForFeet(someFeet){
   // Write your code here!
-  let travelDistance = someFeet; 
+  
+  let freeMessage;
+  if (someFeet <= 400) {
+    freeMessage = 'This one is on me'
+  }
   
 }
 
