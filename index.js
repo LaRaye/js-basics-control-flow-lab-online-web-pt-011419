@@ -1,5 +1,5 @@
 function scuberGreetingForFeet(someFeet){
-  let riderMessage;
+  let riderMessage
   
   if (someFeet <= 400) {
     riderMessage = 'This one is on me!'
