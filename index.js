@@ -28,7 +28,7 @@ function switchOnCharmFromTip(tip){
     case 'not as generous':
       tipMessage = 'Thank you.';
       break;
-    case 'other':
+    case 'if anything else':
       tipMessage = 'Bye.';
       break;
   }
