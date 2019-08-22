@@ -3,9 +3,9 @@ function scuberGreetingForFeet(someFeet){
   
   let freeMessage;
   if (someFeet <= 400) {
-    freeMessage = 'This one is on me!'
+    riderMessage = 'This one is on me!'
   }
-  
+  return riderMessage
 }
 
 function ternaryCheckCity(){
