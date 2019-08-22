@@ -3,7 +3,7 @@ function scuberGreetingForFeet(someFeet){
   
   let freeMessage;
   if (someFeet <= 400) {
-    freeMessage = 'This one is on me'
+    freeMessage = 'This one is on me!'
   }
   
 }
