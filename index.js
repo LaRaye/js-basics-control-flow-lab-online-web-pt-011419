@@ -1,6 +1,4 @@
 function scuberGreetingForFeet(someFeet){
-  // Write your code here!
-  
   let riderMessage;
   
   if (someFeet <= 400) {
