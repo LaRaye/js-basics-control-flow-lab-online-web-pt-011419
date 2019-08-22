@@ -1,5 +1,7 @@
-function scuberGreetingForFeet(){
+function scuberGreetingForFeet(someFeet){
   // Write your code here!
+  let travelDistance = someFeet; 
+  
 }
 
 function ternaryCheckCity(){
